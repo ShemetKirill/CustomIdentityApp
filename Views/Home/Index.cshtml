@@ -1,4 +1,7 @@
-﻿
+﻿@model IEnumerable<CustomIdentityApp.Models.Note>
+
+
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -11,6 +14,23 @@
     <form method="post" asp-controller="Account" asp-action="Logout">
         <input type="submit" value="Выход" />
     </form>
+
+    <a asp-action="Create">Добавить заметку </a>
+    <table class="table">
+        <tr><td>Название заметки </td><td>Текст заметки</td></tr>
+        @if (Model != null)
+        {
+            @foreach (var note in Model)
+            {
+            <tr><td>@note.NameNote</td><td>@note.Notes</td></tr>
+            };
+        }
+        @if(Model==null)
+        {
+           <tr><td>Поле пустое </td><td>Поле пустое </td></tr>
+        }
+
+    </table>
 }
 else
 {
