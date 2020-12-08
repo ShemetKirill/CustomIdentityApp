@@ -92,4 +92,3 @@ D:\шарп\CustomIdentityApp\bin\Debug\netcoreapp3.1\MimeKit.dll
 D:\шарп\CustomIdentityApp\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 D:\шарп\CustomIdentityApp\obj\Debug\netcoreapp3.1\CustomIdentityApp.csproj.CoreCompileInputs.cache
 D:\шарп\CustomIdentityApp\obj\Debug\netcoreapp3.1\CustomIdentityApp.MvcApplicationPartsAssemblyInfo.cache
-D:\шарп\CustomIdentityApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
