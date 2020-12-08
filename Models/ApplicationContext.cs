@@ -5,6 +5,8 @@ namespace CustomIdentityApp.Models
 {
     public class ApplicationContext: IdentityDbContext<User>
     {
+
+        public DbSet<Note> Notes { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             :base (options)
 
